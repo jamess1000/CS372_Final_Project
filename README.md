@@ -7,6 +7,7 @@ Download the Kaggle data, place it in Google Drive (not inside any folder), and 
 Demo video link:
 Technical walkthrough video link:
 ## Evaluation
+For a detailed analysis on evaluation, see the model_comparison notebook.
 Results: (Table that includes MSE from each model, R^2 eval from each model, etc) Exposition on which approach worked best
 ## Individual Contributions
-James: Created the Tabular model and ViT model. Andrew: Created the CNN model and the Transfer Learning from a pretrained ResNet model
+James: Created the Tabular models, ViT models, Combines/Fushion Model, Model Comparison script. Andrew: Created the CNN model, the Transfer Learning from a pretrained ResNet model, the Ensemble Model, and the github repo organization. Both collaborated on editing and checking all files.
