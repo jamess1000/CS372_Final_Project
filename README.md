@@ -10,7 +10,7 @@ Demo video link:
 Technical walkthrough video link:
 ## Evaluation
 **Results:**
-          **model**              **category**       **test_weighted_R2**   **can_submit**
+'          '**model**'              '**category**       **test_weighted_R2**   **can_submit**
               LightGBM       Tabular (local only)          0.837255            False
     Ridge (alpha=0.01)       Tabular (local only)          0.674643            False
    ViT-B/16 fine-tuned                       ViT           0.589443             True
