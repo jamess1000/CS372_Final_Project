@@ -6,8 +6,9 @@ Our project explores novel (to our knowledge) solutions to the Kaggle competitio
 ## Quick Start
 Download the Kaggle data, place it in Google Drive (not inside any folder), and the notebooks should run top-to-bottom to reproduce the results seen in them. Review SETUP.md for a more detailed walkthrough of the project setup. 
 ## Video Links
-Demo video link:
-Technical walkthrough video link:
+Demo video link: https://youtu.be/ohchv1PMyfM
+
+Technical walkthrough video link: https://youtu.be/B5PAkJy2VqE
 ## Evaluation
 **Results:**
 | model                     | category                | test_weighted_R2 | can_submit |
