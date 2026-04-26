@@ -20,6 +20,7 @@ Technical walkthrough video link:
 | Custom ViT               | ViT                     | 0.436188         | True       |
 | Fusion (ViT + Tabular)   | Combined (local only)   | 0.394447         | False      |
 | Constant Baseline        | Tabular (local only)    | 0.212215         | False      |
+
 **Comments on results:**
 The models that utilize tabular data have the best results on the defined evaluation market, however, they are not usable for submission since the test data only includes an image path (there is no tabular data). Of the strictly vision models that are eligible for submission, we see that the fine tuned ViT performs the best. It is also worth noting that the combined/fushion model performs worse than any of the single modality models. As a result, for this competition, we would recommend submitting the ViT fine-tuned model, but in reality where farmers have access to both tabular and image data, we would recommend the gradient boosting model. For a more detailed analysis on evaluation, see the model_comparison_fin notebook. 
 ## Individual Contributions
