@@ -11,7 +11,7 @@ target_name — Biomass component name for this row (Dry_Green_g, Dry_Dead_g, Dr
 6. sample_submission.csv : sample_id — Copy from test.csv; one row per requested (image, target_name) pair. target — Your predicted biomass value (grams) for that sample_id.
 
 # External Libraries
-In each notebook, our first code block is a list of imported external libraries used in the notebook. Some external libraries used include py.torch, pandas, numpy, sklearn, matplotlib, etc. While the first code block in each notebook is not an exhuastive list of imports as some code blocks later in the file might import additional libraries, all used libraries are imported within each notebook.
+In each notebook, our first code block is a list of imported external libraries used in the notebook. Some external libraries used include py.torch, pandas, numpy, sklearn, matplotlib, etc. While the first code block in each notebook is not an exhuastive list of imports as some code blocks later in the file might import additional libraries, all used libraries are imported within each notebook. Check the requirements.txt file for an exhuastive list of all dependencies.
 
 # Use of generative AI
 Generative AI was consulted in the creation of some codeblocks within the notebooks. Within each notebook, generative AI attribution is provided before or below the cell block that it assisted creating. This includes several classes, functions, and graphs throughout all of the notebooks. Each notebook includes specific attributions throughout for transparency. 
